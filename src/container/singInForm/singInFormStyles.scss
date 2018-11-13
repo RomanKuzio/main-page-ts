@@ -1,0 +1,146 @@
+.sing-in-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  .header-menu-wrapper {
+    background-color: #1c9cce;
+  }
+
+  .sing-in-form-element {
+    width: 60% !important;
+    color: white !important;
+    font-size: 15px !important;
+    margin-top: 20px !important;
+
+    > div {
+      font-size: 14px !important;
+      color: white !important;
+    }
+
+    input {
+      color: white !important;
+      font-size: 20px !important;
+    }
+    label {
+      font-weight: 400!important;
+      font-size: 20px !important;
+      color: white !important;
+    }
+
+  }
+
+  .submit-sing-in-form-btn-wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+  }
+
+  .submit-sing-in-form-btn {
+    width: 33% !important;
+    height: 55px !important;
+    color: #1c9bcd !important;
+    font-size: 18px !important;
+    background-color: white !important;
+    font-weight: 600;
+  }
+
+  @media (min-device-width: 925px) and (max-device-width: 1300px) {
+    .submit-sing-in-form-btn {
+      width: 40% !important;
+      height: 50px !important;
+    }
+  }
+
+  @media(min-device-width: 690px) and(max-device-width: 925px) {
+    .sing-in-form-element {
+      font-size: 17px !important;
+      input {
+        font-size: 17px !important;
+      }
+      label {
+        font-size: 17px !important;
+      }
+    }
+
+    .submit-sing-in-form-btn {
+      width: 40% !important;
+      height: 40px !important;
+      font-size: 13px !important;
+    }
+  }
+
+  @media(min-device-width: 530px) and(max-device-width: 690px) {
+    .sing-in-form-element {
+      margin-top: 5px !important;
+      font-size: 13px !important;
+      > div {
+        font-size: 10px !important;
+        color: black !important;
+      }
+
+      input {
+        font-size: 13px !important;
+      }
+      label {
+        font-size: 13px !important;
+      }
+    }
+    .submit-sing-in-form-btn {
+      width: 45% !important;
+      height: 20px !important;
+      font-size: 10px !important;
+    }
+  }
+
+  @media (min-device-width: 400px) and (max-device-width: 530px) {
+    .sing-in-form-element {
+      margin-top: -10px !important;
+      font-size: 10px !important;
+      > div {
+        font-size: 10px !important;
+        color: black !important;
+      }
+
+      input {
+        font-size: 10px !important;
+      }
+      label {
+        font-size: 10px !important;
+      }
+    }
+
+    .submit-sing-in-form-btn {
+      width: 45% !important;
+      height: 20px !important;
+      font-size: 6px !important;
+    }
+  }
+
+  @media (min-device-width: 320px) and (max-device-width: 405px) {
+    .sing-in-form-element {
+      margin-top: -10px !important;
+      font-size: 10px !important;
+      > div {
+        font-size: 10px !important;
+        color: black !important;
+      }
+
+      input {
+        font-size: 10px !important;
+      }
+
+      label {
+        font-size: 10px !important;
+      }
+    }
+
+    .submit-sing-in-form-btn {
+      width: 60% !important;
+      height: 20px !important;
+      font-size: 6px !important;
+    }
+  }
+}

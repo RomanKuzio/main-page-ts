@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+.login-in-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  .login-in-form-element {
+    width: 60% !important;
+
+    font-size: 15px !important;
+    margin-top: 20px !important;
+
+    > div {
+
+      font-size: 14px !important;
+    }
+    input {
+      -webkit-box-shadow: 0 0 0 1000px white inset;
+      background: none;
+      font-size: 20px !important;
+
+    }
+    label {
+      background: none;
+      font-weight: 400!important;
+      font-size: 20px;
+
+    }
+  }
+
+  .submit-login-in-form-btn-wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+  }
+
+  .submit-login-in-form-btn {
+    width: 33% !important;
+    height: 50px !important;
+    background-color: #1c9bcd !important;
+    text-align: center;
+    padding-top: -50px !important;
+
+    .MuiButton-label-2 {
+      padding-bottom: 6px;
+      font-size: 50px !important;
+      color: white;
+
+      height: 0 !important;
+    }
+  }
+
+  .submit-login-in-form-btn-icon {
+    font-size: 60px;
+  }
+
+  @media (min-device-width: 925px) and (max-device-width: 1300px) {
+    .submit-login-in-form-btn {
+      width: 40% !important;
+      height: 50px !important;
+    }
+  }
+
+  @media(min-device-width: 690px) and(max-device-width: 925px) {
+    .login-in-form-element {
+      font-size: 17px !important;
+      input {
+        font-size: 17px !important;
+      }
+      label {
+        font-size: 17px !important;
+      }
+    }
+
+    .submit-login-in-form-btn {
+      width: 40% !important;
+      height: 40px !important;
+    }
+  }
+
+  @media(min-device-width: 530px) and(max-device-width: 690px) {
+    .login-in-form-element {
+      margin-top: 5px !important;
+      font-size: 13px !important;
+      > div {
+        font-size: 10px !important;
+      }
+      input {
+        font-size: 13px !important;
+      }
+      label {
+        font-size: 13px !important;
+      }
+    }
+    .submit-login-in-form-btn {
+      width: 45% !important;
+      height: 20px !important;
+
+      .MuiButton-label-2 {
+        font-size: 30px !important;
+      }
+    }
+
+  }
+
+  @media (min-device-width: 400px) and (max-device-width: 530px) {
+    .login-in-form-element {
+      margin-top: -5px !important;
+      font-size: 10px !important;
+      > div {
+        font-size: 10px !important;
+      }
+      input {
+        font-size: 10px !important;
+      }
+      label {
+        font-size: 10px !important;
+      }
+    }
+
+    .submit-login-in-form-btn {
+      width: 45% !important;
+      height: 20px !important;
+      .MuiButton-label-2 {
+        font-size: 25px !important;
+      }
+    }
+  }
+
+  @media (min-device-width: 320px) and (max-device-width: 400px) {
+    .login-in-form-element {
+      margin-top: -5px !important;
+      font-size: 10px !important;
+      > div {
+        font-size: 10px !important;
+      }
+      input {
+        font-size: 10px !important;
+      }
+      label {
+        font-size: 10px !important;
+      }
+    }
+
+    .submit-login-in-form-btn {
+      width: 55% !important;
+      height: 20px !important;
+      .MuiButton-label-2 {
+        font-size: 20px !important;
+      }
+    }
+  }
+}

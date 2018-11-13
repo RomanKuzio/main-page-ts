@@ -1,0 +1,129 @@
+$white:white;
+.sing-in-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../../static/images/SingUp2.png"), url("../../../static/images/SingUp.png");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+
+  .sing-in-top {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    padding-top: 70px;
+  }
+
+  .sing-in-btn-facebook {
+    background-color: $white !important;
+  }
+
+  .sing-in-btn-google {
+    background-color: $white !important;
+  }
+
+  .sing-in-title {
+    width: 60%;
+    font-size: 43px;
+    color: $white;
+  }
+
+  .sing-in-bottom {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .sing-in-bottom-btns-wrapper {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+  }
+
+  .sing-in-bottom-btns-image {
+    height: 20px !important;
+  }
+
+  .sing-in-bottom-text {
+    color: $white;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  @media (min-device-width: 925px) and (max-device-width: 1300px) {
+    .sing-in-bottom-btns-wrapper {
+      width: 35% !important;
+    }
+
+    .sing-in-title {
+      font-size: 35px;
+    }
+
+  }
+
+  @media (min-device-width: 690px) and (max-device-width: 925px) {
+    .sing-in-bottom-btns-wrapper {
+      width: 45% !important;
+    }
+
+    .sing-in-title {
+      font-size: 25px;
+    }
+
+  }
+
+  @media (min-device-width: 525px) and (max-device-width: 690px) {
+    .sing-in-bottom-btns-wrapper {
+      width: 55% !important;
+    }
+
+    .sing-in-title {
+      font-size: 20px;
+    }
+
+    .sing-in-bottom-text {
+      font-size: 15px;
+    }
+
+  }
+
+  @media (min-device-width: 425px) and (max-device-width: 525px) {
+    .sing-in-bottom-btns-wrapper {
+      width: 65% !important;
+    }
+
+    .sing-in-title {
+      font-size: 17px;
+    }
+
+    .sing-in-bottom-text {
+      font-size: 15px;
+    }
+
+  }
+
+  @media (min-device-width: 320px) and (max-device-width: 425px) {
+    .sing-in-bottom-btns-wrapper {
+      width: 77% !important;
+      .MuiButton-mini-23 {
+        width: 33px;
+        height: 28px;
+      }
+    }
+
+    .sing-in-title {
+      font-size: 15px;
+    }
+
+    .sing-in-bottom-text {
+      font-size: 12px;
+    }
+
+  }
+}

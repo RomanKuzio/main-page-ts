@@ -1,0 +1,130 @@
+$blue:#4d5fbb;
+$red:#ca2727;
+$light-blue:#4dadbb;
+
+.login-in-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+
+  .login-in-btn-facebook {
+    background-color: $blue !important;
+  }
+
+  .login-in-btn-google {
+    background-color: $red !important;
+  }
+
+  .login-in-top {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    padding-top: 70px;
+  }
+
+  .login-in-title {
+    width: 60%;
+    font-size: 43px;
+  }
+
+  .login-in-bottom {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .login-in-bottom-btns-wrapper {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+  }
+
+  .login-in-bottom-btns-image {
+    height: 20px !important;
+  }
+
+  .login-in-bottom-text {
+    margin-top: 10px;
+    font-size: 20px;
+    color: $light-blue;
+  }
+
+  @media (min-device-width: 925px) and (max-device-width: 1300px) {
+    .login-in-bottom-btns-wrapper {
+      width: 35% !important;
+    }
+
+    .login-in-title {
+      font-size: 35px;
+    }
+
+  }
+
+  @media (min-device-width: 690px) and (max-device-width: 925px) {
+    .login-in-bottom-btns-wrapper {
+      width: 45% !important;
+    }
+
+    .login-in-title {
+      font-size: 25px;
+    }
+
+  }
+
+  @media (min-device-width: 540px) and (max-device-width: 690px) {
+    .login-in-bottom-btns-wrapper {
+      width: 55% !important;
+    }
+
+    .login-in-title {
+      font-size: 20px;
+    }
+
+    .login-in-bottom-text {
+      font-size: 15px;
+    }
+
+  }
+
+  @media (min-device-width: 425px) and (max-device-width: 540px) {
+    .login-in-bottom-btns-wrapper {
+      width: 65% !important;
+    }
+
+    .login-in-title {
+      font-size: 17px;
+    }
+
+    .login-in-bottom-text {
+      font-size: 15px;
+    }
+
+  }
+
+  @media (min-device-width: 320px) and (max-device-width: 425px) {
+    .login-in-bottom-btns-wrapper {
+      width: 80% !important;
+
+      .MuiButton-mini-23 {
+        width: 33px;
+        height: 28px;
+      }
+    }
+
+    .login-in-title {
+      font-size: 15px;
+    }
+
+    .login-in-bottom-text {
+      font-size: 11px;
+    }
+
+  }
+}
