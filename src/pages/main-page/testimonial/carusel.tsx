@@ -72,13 +72,13 @@ export default class Carusel extends React.Component<{},IState> {
                     <Slider {...this.choseSettings()} className="big-slider">
                         <div className="big-slider-elements">
                             <Human
-                                src={John}
+                                src={Adam}
                                 comment="I have been incredibly impressed with LinkUp team of developers.
             Few people would choose a prison as the location for a special evening out.
             However, Italy has launched its first restaurant to be located in a real jail.
             At the Ingalera Restaurant in Bollate prison, Milan, there are four prisoners working
             as waiters and five others cooking in the kitchen, headed by a professional chef and a maître."
-                                name="John Kamman"
+                                name="Adam"
                                 works="Wholesum Founder"
                             />
                         </div>
@@ -102,7 +102,7 @@ export default class Carusel extends React.Component<{},IState> {
           However, Italy has launched its first restaurant to be located in a real jail.
           At the Ingalera Restaurant in Bollate prison, Milan, there are four prisoners working
           as waiters and five others cooking in the kitchen, headed by a professional chef and a maître."
-                                name="John Kamman"
+                                name="Adam"
                                 works="Wholesum Founder"
                             />
                         </div>

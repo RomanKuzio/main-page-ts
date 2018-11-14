@@ -3,10 +3,11 @@ import Button from '@material-ui/core/Button';
 import axios from 'axios';
 
 import LoginInForm from '../../../container/loginInForm/loginInForm'
-import { LogInFacebookLogo, LogInGoogleLogo} from '../../../helpers/icons'
-
+import Google from '../../../static/images/googlePlus.png'
+import FacebookLoginIn from '../../../static/images/facebookLoginIn.png'
 
 import './loginInStyles.scss'
+
 
 export default class LoginIn extends React.Component {
     handleSubmit=async(value)=>{
@@ -41,7 +42,7 @@ export default class LoginIn extends React.Component {
                         >
                             <img
                                 className="login-in-bottom-btns-image"
-                                src={LogInFacebookLogo}
+                                src={FacebookLoginIn}
                             />
                         </Button>
                         <Button
@@ -50,10 +51,9 @@ export default class LoginIn extends React.Component {
                             mini={true}
                             className="login-in-btn-google"
                         >
-                            <img
+                           <img src={Google}
                                 className="login-in-bottom-btns-image"
-                                src={LogInGoogleLogo}
-                            />
+                           />
                         </Button>
                     </div>
                     <h3 className="login-in-bottom-text">
