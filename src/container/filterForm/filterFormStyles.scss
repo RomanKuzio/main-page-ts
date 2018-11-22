@@ -1,0 +1,235 @@
+.filter-form-wrapper{
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  justify-content: space-around;
+
+  .form-control{
+    height: 40px;
+    border: none;
+    margin-bottom: 0;
+    padding-right: 10px;
+    color: #a4a4a4;
+  }
+
+  .form-group{
+    margin-bottom: 0;
+  }
+
+  .filter-form-dropdown{
+    box-shadow: 0 0 10px rgba(#e1e1e1,0.5);
+    width: 25%;
+  }
+
+
+  .filter-form-searcher{
+    box-shadow: 0 0 10px rgba(#e1e1e1,0.5);
+    width: 25%;
+  }
+
+  .filter-form-rating{
+    box-shadow: 0 0 10px rgba(#e1e1e1,0.5);
+    width:10%;
+    display: flex;
+    align-items: center;
+    .form-control{
+      padding-right: 5px!important;
+      padding-left: 45%!important;
+    }
+  }
+
+  .filter-form-start-price{
+    box-shadow: 0 0 10px rgba(#e1e1e1,0.5);
+    width: 6%;
+  }
+
+  .filter-form-end-price{
+    box-shadow: 0 0 10px rgba(#e1e1e1,0.5);
+    width: 6%;
+  }
+
+  .input-icon{
+    position: absolute;
+    top: 7.5px;
+    right: 10px;
+    z-index: 1;
+    width: 25px;
+    cursor: pointer;
+  }
+
+  .dropdown-icon{
+    position: absolute;
+    left: 21.5%;
+    right: 0;
+    width: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-device-width: 1024px) and (max-device-width: 1440px){
+
+    .dropdown-icon{
+      left: 21%;
+    }
+
+  }
+
+  @media (min-device-width: 800px) and (max-device-width: 1024px){
+    align-items: center;
+    flex-direction: column;
+
+    .filter-form-dropdown{
+      width: 50%;
+      margin-top: 10px;
+    }
+
+    .filter-form-searcher{
+      width: 50%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-form-rating{
+      width:20%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-form-start-price{
+      width: 12%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-form-end-price{
+      width: 12%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .dropdown-icon{
+      left: 0;
+      right: 25px;
+    }
+
+  }
+  @media (min-device-width: 650px) and (max-device-width: 800px){
+    align-items: center;
+    flex-direction: column;
+
+    .filter-form-dropdown{
+      width: 55%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-form-searcher{
+      width: 55%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-form-rating{
+      width:27%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+    }
+
+    .filter-form-start-price{
+      width: 17%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-form-end-price{
+      width: 17%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .dropdown-icon{
+      left: 0;
+      right: 25px;
+    }
+  }
+  @media (min-device-width: 450px) and (max-device-width: 650px){
+    align-items: center;
+    flex-direction: column;
+
+    .filter-form-dropdown{
+      width: 65%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-form-searcher{
+      width: 65%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-form-rating{
+      width:37%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-form-start-price{
+      width: 23%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-form-end-price{
+      width: 23%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .dropdown-icon{
+      left: 0;
+      right: 25px;
+    }
+  }
+  @media (min-device-width: 320px) and (max-device-width: 450px){
+    align-items: center;
+
+    flex-direction: column;
+
+    .filter-form-dropdown{
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-form-searcher{
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-form-rating{
+      width:75%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-form-start-price{
+      width: 50%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .filter-form-end-price{
+      width: 50%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .dropdown-icon{
+      left: 0;
+      right: 25px;
+    }
+  }
+}

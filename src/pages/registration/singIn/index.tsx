@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Button from '@material-ui/core/Button';
-import axios from 'axios';
+import {crudBuilder} from "../../../helpers/httpRequest";
 
 import SingInForm from '../../../container/singInForm/singInForm'
 
@@ -9,15 +9,23 @@ import './singInStyles.scss';
 import Google from '../../../static/images/googlePlusSinIn.png'
 import Facebook from '../../../static/images/facebook .png'
 
+
+
 export default class SingIn extends React.Component {
+
     handleSubmit=async(value)=>{
         try {
-            const response = await axios.post('', {
-                email: value.email,
-                password: value.password,
-                confirmPassword: value.confirmPassword,
-            });
-            console.log(response);
+            if(value.password !=value.confirmPassword){
+                alert("passwords do not match");
+            }else {
+                const response: object = await (crudBuilder('/sign_up').post({
+                    user: {
+                        email: value.email,
+                        password: value.password,
+                    }
+                }));
+                console.log(response);
+            }
         } catch (err) {
             console.error(err);
         }
@@ -26,6 +34,7 @@ export default class SingIn extends React.Component {
     public render(){
         return(
             <div className="sing-in-wrapper">
+
                 <div className="sing-in-top">
                     <div className="sing-in-title">
                         Are you new user?
@@ -35,6 +44,8 @@ export default class SingIn extends React.Component {
                     />
                 </div>
                 <div className="sing-in-bottom">
+
+
                     <div className="sing-in-bottom-btns-wrapper">
                         <Button
                             variant="fab"

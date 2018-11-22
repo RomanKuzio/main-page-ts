@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import MainPage from './pages/main-page'
 import Registration from "./pages/registration/index";
+import AllProducts from "./pages/all-products/index";
 
 const rootReduser = combineReducers({
     runtime,
@@ -29,6 +30,7 @@ class App extends React.Component {
                   <Switch>
                       <Route exact={true} path='/' component={MainPage}/>
                       <Route path='/registration' component={Registration}/>
+                      <Route path='/all-products' component={AllProducts}/>
                   </Switch>
               </Router>
           </MuiThemeProvider>

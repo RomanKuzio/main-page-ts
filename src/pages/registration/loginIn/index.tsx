@@ -1,24 +1,28 @@
 import * as React from 'react';
 import Button from '@material-ui/core/Button';
-import axios from 'axios';
 
 import LoginInForm from '../../../container/loginInForm/loginInForm'
 import Google from '../../../static/images/googlePlus.png'
 import FacebookLoginIn from '../../../static/images/facebookLoginIn.png'
+import {crudBuilder} from "../../../helpers/httpRequest";
 
 import './loginInStyles.scss'
-
 
 export default class LoginIn extends React.Component {
     handleSubmit=async(value)=>{
         try {
-            const response = await axios.post('', {
-                email: value.email,
-                password: value.password,
-            });
+            const response:any = await crudBuilder('/user_token').post(
+                {
+                    auth: {
+                        email: value.email,
+                        password: value.password
+                    }
+                }
+            );
             console.log(response);
+            localStorage.setItem('token', response.data.jwt);
         } catch (err) {
-            console.error(err);
+            console.error(err.response);
         }
     };
     public render(){

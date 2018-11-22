@@ -1,9 +1,9 @@
 import * as React from 'react';
 
 import ProductPanel from './productPanel';
-    import HubstaffDirectory from '../../../static/images/HubstaffDirectory.png';
+import HubstaffDirectory from '../../../static/images/HubstaffDirectory.png';
 import Jira2017 from '../../../static/images/Jira2017.png';
-import SlackPro from '../../../static/images/StackPro.png';
+import SlackPro from '../../../static/images/SlackProMainPage.png';
 import TraveChat from '../../../static/images/TraveChat.png';
 import Network from '../../../static/images/Network.png';
 import TimeCamp from '../../../static/images/TimeCamp.png';

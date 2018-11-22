@@ -22,7 +22,7 @@ export default class Human extends React.Component<IHumanProps> {
                         src={src}
                     />
                 </div>
-                <div className="commetn">{comment}</div>
+                <div className="commetn line-clamp">{comment}</div>
                 <div className="testimonials-name-wrapper">
                     <div className="testimonials-name">{name}</div>
                     <div className="testimonials-work">{works}</div>

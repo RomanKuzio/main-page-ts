@@ -21,13 +21,14 @@
     .search-title {
         font-size: 40px;
         font-weight: 600;
+        color: #484848;
     }
 
     .mini-title {
         display: flex;
         justify-content: center;
         align-items: center;
-
+        color: #484848;
         .material-icons {
             padding-left: 3px;
             padding-right: 3px;
@@ -50,6 +51,7 @@
         border-bottom-right-radius: 0 !important;
         border-right: solid 0.7px #cdcdcd;
         border: none;
+        color:#838383;
     }
 
     .input {

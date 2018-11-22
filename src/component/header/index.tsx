@@ -86,7 +86,11 @@ export default class Header extends React.PureComponent<{},IStateHeader>{
                         }}
                     >
                         <MenuItem onClick={this.handleClose}>
-                            <div>ALL PRODUCTS</div>
+                            <div>
+                                <Link className="link-btn" to='/all-products'>
+                                    ALL PRODUCTS
+                                </Link>
+                            </div>
                         </MenuItem>
                         <MenuItem onClick={this.handleClose}>
                             <div>ABOUT US</div>
@@ -102,7 +106,11 @@ export default class Header extends React.PureComponent<{},IStateHeader>{
         else{
             return(
                 <div className="header-btns">
-                    <div>ALL PRODUCTS</div>
+                    <div>
+                        <Link className="link-btn" to='/all-products'>
+                            ALL PRODUCTS
+                        </Link>
+                    </div>
                     <div>ABOUT US</div>
                     <div><Link to='/registration' className="link-btn">SING IN</Link></div>
                 </div>

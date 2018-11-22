@@ -23,6 +23,14 @@
       color: white !important;
       font-size: 20px !important;
     }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+      -webkit-transition-delay: 9s !important;
+    }
+
     label {
       font-weight: 400!important;
       font-size: 20px !important;
@@ -133,6 +141,7 @@
       }
 
       label {
+
         font-size: 10px !important;
       }
     }

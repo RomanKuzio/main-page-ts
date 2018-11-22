@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Slider from 'react-slick';
 import { debounce } from 'lodash';
+import { Carousel } from '3d-react-carousal';
 
 import Human from './human';
 import John from '../../../static/images/John.png';
@@ -12,8 +13,14 @@ interface IState{
     device:string;
 }
 
-export default class Carusel extends React.Component<{},IState> {
-    state: IState = {
+interface IProps{
+
+}
+
+
+
+export default class Carusel extends React.Component<IProps,IState> {
+    public state: IState = {
         device: "",
     };
 
@@ -66,61 +73,49 @@ export default class Carusel extends React.Component<{},IState> {
     };
 
     public render() {
+        let slides = [
+            <Human
+                src={John}
+                comment="I have been incredibly impressed with LinkUp team of developers.
+          Few people would choose a prison as the location for a special evening out.
+          However, Italy has launched its first restaurant to be located in a real jail.
+          At the Ingalera Restaurant in Bollate prison, Milan, there are four prisoners working
+          as waiters and five others cooking in the kitchen, headed by a professional chef and a maître."
+                name="John Kamman"
+                works="Wholesum Founder"
+                />,
+            <Human
+                src={John}
+                comment="I have been incredibly impressed with LinkUp team of developers.
+          Few people would choose a prison as the location for a special evening out.
+          However, Italy has launched its first restaurant to be located in a real jail.
+          At the Ingalera Restaurant in Bollate prison, Milan, there are four prisoners working
+          as waiters and five others cooking in the kitchen, headed by a professional chef and a maître.
+          I have been incredibly impressed with LinkUp team of developers.
+          Few people would choose a prison as the location for a special evening out.
+          However, Italy has launched its first restaurant to be located in a real jail.
+          At the Ingalera Restaurant in Bollate prison, Milan, there are four prisoners working
+          as waiters and five others cooking in the kitchen, headed by a professional chef and a maître."
+                name="John Kamman"
+                works="Wholesum Founder"
+                />,
+            <Human
+                src={John}
+                comment="I have been incredibly impressed with LinkUp team of developers.
+          Few people would choose a prison as the location for a special evening out.
+          However, Italy has launched its first restaurant to be located in a real jail.
+          At the Ingalera Restaurant in Bollate prison, Milan, there are four prisoners working
+          as waiters and five others cooking in the kitchen, headed by a professional chef and a maître."
+                name="John Kamman"
+                works="Wholesum Founder"
+                />,
+
+        ];
+
         return (
-            <React.Fragment>
-                <div className="container">
-                    <Slider {...this.choseSettings()} className="big-slider">
-                        <div className="big-slider-elements">
-                            <Human
-                                src={Adam}
-                                comment="I have been incredibly impressed with LinkUp team of developers.
-            Few people would choose a prison as the location for a special evening out.
-            However, Italy has launched its first restaurant to be located in a real jail.
-            At the Ingalera Restaurant in Bollate prison, Milan, there are four prisoners working
-            as waiters and five others cooking in the kitchen, headed by a professional chef and a maître."
-                                name="Adam"
-                                works="Wholesum Founder"
-                            />
-                        </div>
-                        <div className="big-slider-elements">
-                            <Human
-                                src={John}
-                                comment="I have been incredibly impressed with LinkUp team of developers.
-              Few people would choose a prison as the location for a special evening out.
-              However, Italy has launched its first restaurant to be located in a real jail.
-              At the Ingalera Restaurant in Bollate prison, Milan, there are four prisoners working
-              as waiters and five others cooking in the kitchen, headed by a professional chef and a maître."
-                                name="John Kamman"
-                                works="Wholesum Founder"
-                            />
-                        </div>
-                        <div className="big-slider-elements">
-                            <Human
-                                src={Adam}
-                                comment="I have been incredibly impressed with LinkUp team of developers.
-          Few people would choose a prison as the location for a special evening out.
-          However, Italy has launched its first restaurant to be located in a real jail.
-          At the Ingalera Restaurant in Bollate prison, Milan, there are four prisoners working
-          as waiters and five others cooking in the kitchen, headed by a professional chef and a maître."
-                                name="Adam"
-                                works="Wholesum Founder"
-                            />
-                        </div>
-                        <div className="big-slider-elements">
-                            <Human
-                                src={John}
-                                comment="I have been incredibly impressed with LinkUp team of developers.
-          Few people would choose a prison as the location for a special evening out.
-          However, Italy has launched its first restaurant to be located in a real jail.
-          At the Ingalera Restaurant in Bollate prison, Milan, there are four prisoners working
-          as waiters and five others cooking in the kitchen, headed by a professional chef and a maître."
-                                name="John Kamman"
-                                works="Wholesum Founder"
-                            />
-                        </div>
-                    </Slider>
-                </div>
-            </React.Fragment>
+            <div className="container">
+                <Carousel slides={slides}/>
+            </div>
         );
     }
 }

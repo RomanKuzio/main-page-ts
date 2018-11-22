@@ -1,0 +1,177 @@
+.products-list-wrapper {
+  width: 100%;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .products-list-item-wrapper {
+    width: 70%;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 15px;
+
+    .products-list-item-information{
+      width: 55%;
+      height: 180px;
+      display: flex;
+      flex-direction: column;
+      padding: 0 0 0 30px;
+      .products-list-item-information-header{
+        font-weight: 600;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        .products-list-item-information-logo{
+          width: 25px;
+        }
+        .products-list-item-information-star-icon{
+          margin-left: 10px;
+          width: 20px;
+        }
+      }
+
+      .products-list-item-information-describe{
+        font-size: 13px;
+        color: black;
+        height: 90px;
+        padding-top: 25px;
+        border-bottom: solid #dcdcdc 0.5px;
+      }
+
+      .products-list-item-information-platform-icon-wrapper{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+      }
+
+      .products-list-item-information-platform-icon{
+        margin-left: 10px;
+        width: 12%;
+        min-width: 13%;
+      }
+
+      @media (min-device-width: 790px) and (max-device-width: 1024px) {
+        height: 160px;
+        .products-list-item-information-describe{
+          font-size: 12px;
+        }
+        .products-list-item-information-platform-icon{
+          width: 16%;
+        }
+      }
+      @media (min-device-width: 530px) and (max-device-width: 790px) {
+        width: 100%;
+        padding: 20px 0 0 10px;
+        .products-list-item-information-describe{
+          height: 130px;
+        }
+        .products-list-item-information-platform-icon{
+          margin-left: 10px;
+          width: 13%;
+        }
+        .products-list-item-information-platform-icon:first-of-type{
+          margin-left: 0;
+        }
+
+      }
+      @media (min-device-width: 530px) and (max-device-width: 650px) {
+        width: 100%;
+        padding: 20px 0 0 10px;
+        .products-list-item-information-describe{
+          height: 100%;
+          font-size: 13px;
+        }
+      }
+
+      @media (min-device-width: 320px) and (max-device-width: 530px) {
+        width: 100%;
+        padding: 20px 0 0 10px;
+        .products-list-item-information-describe{
+          font-size: 12px;
+          height: 100%;
+        }
+        .products-list-item-information-platform-icon{
+          margin-left: 10px;
+          width: 14%;
+        }
+        .products-list-item-information-platform-icon:first-of-type{
+          margin-left: 0;
+        }
+      }
+    }
+
+    .product-list-btn-wrapper{
+      width: 30%;
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 14px;
+    }
+
+    .products-list-btn{
+      background-color: #4dadbb;
+      color: white;
+      width: 75%;
+      height: 45px;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 12px;
+      border-radius: 8px;
+    }
+
+    @media (min-device-width: 790px) and (max-device-width: 1000px) {
+      .products-list-btn{
+        font-size: 10px;
+      }
+      .products-list-item-image-wrapper{
+        padding-top: 10px;
+        border: solid #e1e1e1 1px;
+      }
+    }
+    @media (min-device-width: 530px) and (max-device-width: 790px) {
+      .product-list-btn-wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .products-list-item-image-wrapper{
+        padding-top: 10px;
+        border: solid #e1e1e1 1px;
+      }
+    }
+
+    @media (min-device-width: 320px) and (max-device-width: 530px) {
+      .product-list-btn-wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .products-list-item-image-wrapper{
+        padding-top: 10px;
+        img {
+          border: solid #e1e1e1 1px;
+        }
+      }
+
+    }
+
+    @media (min-device-width: 200px) and (max-device-width: 790px) {
+      flex-direction: column;
+      width: 30%;
+    }
+
+    @media (min-device-width: 200px) and (max-device-width: 790px) {
+
+      width: 70%;
+
+    }
+  }
+}
