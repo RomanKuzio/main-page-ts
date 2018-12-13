@@ -25,6 +25,7 @@
   .filter-form-searcher{
     box-shadow: 0 0 10px rgba(#e1e1e1,0.5);
     width: 25%;
+    position: relative;
   }
 
   .filter-form-rating{
@@ -48,13 +49,14 @@
     width: 6%;
   }
 
-  .input-icon{
+  .input-icon-btn{
     position: absolute;
-    top: 7.5px;
-    right: 10px;
-    z-index: 1;
-    width: 25px;
-    cursor: pointer;
+    right: -5px;
+    top: -5px;
+  }
+
+  .input-icon{
+    width: 26px;
   }
 
   .dropdown-icon{

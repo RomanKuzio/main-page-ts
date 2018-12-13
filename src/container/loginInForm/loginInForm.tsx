@@ -2,6 +2,8 @@ import * as React from 'react';
 import {reduxForm, Form, Field, InjectedFormProps} from 'redux-form';
 import {TextField} from "material-ui";
 
+import arrow from '../../static/images/arrow.png'
+
 import Button from '@material-ui/core/Button';
 
 import { email, required } from '../../helpers/validator'
@@ -56,7 +58,10 @@ class LoginInForm extends React.Component<IProps>{
                         className="submit-login-in-form-btn"
                         type="submit"
                     >
-                        →
+                        <img
+                            className="submit-login-in-form-btn-icon"
+                            src={arrow}
+                        />
                     </Button>
                 </div>
             </Form>

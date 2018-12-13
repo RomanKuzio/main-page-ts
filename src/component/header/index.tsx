@@ -11,6 +11,7 @@ import HeaderLogo from '../../static/images/HeaderLogo.png';
 
 
 import './headerStyles.scss';
+import {historyPush} from "../../helpers/historyPush";
 
 
 interface IStateHeader{
@@ -86,17 +87,13 @@ export default class Header extends React.PureComponent<{},IStateHeader>{
                         }}
                     >
                         <MenuItem onClick={this.handleClose}>
-                            <div>
-                                <Link className="link-btn" to='/all-products'>
-                                    ALL PRODUCTS
-                                </Link>
-                            </div>
+                            <div onClick={()=>historyPush('/all-products',{})}>ALL PRODUCTS</div>
                         </MenuItem>
                         <MenuItem onClick={this.handleClose}>
                             <div>ABOUT US</div>
                         </MenuItem>
                         <MenuItem onClick={this.handleClose}>
-                            <div><Link className="link-btn" to='/registration'>SING IN</Link></div>
+                            <div onClick={()=>historyPush('/registration',{})}>SING IN</div>
                         </MenuItem>
                         ))}
                     </Menu>
@@ -106,13 +103,9 @@ export default class Header extends React.PureComponent<{},IStateHeader>{
         else{
             return(
                 <div className="header-btns">
-                    <div>
-                        <Link className="link-btn" to='/all-products'>
-                            ALL PRODUCTS
-                        </Link>
-                    </div>
+                    <div onClick={()=>historyPush('/all-products',{})}>ALL PRODUCTS</div>
                     <div>ABOUT US</div>
-                    <div><Link to='/registration' className="link-btn">SING IN</Link></div>
+                    <div onClick={()=>historyPush('/registration',{})}>SING IN</div>
                 </div>
             )
         }

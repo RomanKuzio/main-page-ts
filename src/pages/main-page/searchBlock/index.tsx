@@ -1,13 +1,44 @@
 import * as React from 'react';
-import {  Button, Glyphicon ,DropdownButton,Form, MenuItem,FormControl } from 'react-bootstrap';
 import MaterialIcon from 'material-icons-react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 
+import { SaveProducts } from "../../../actions/actions";
+import MainPageSearchForm from '../../../container/mainPageSearchForm/mainPageSearchForm'
 import BottomButtons from './bottomButtons';
 
 import './serchBlockStyles.scss';
+import {crudBuilder} from "../../../helpers/httpRequest";
+import {historyPush} from "../../../helpers/historyPush";
 
-export default class SearchBlock extends React.PureComponent{
+interface IProps{
+    SaveProducts:any
+}
+
+class SearchBlock extends React.Component<IProps>{
+    handleSubmit=async(value)=>{
+        try{
+            if(value.category!=0&&value.category!=undefined) {
+                const response = await crudBuilder(`/items`).getList({
+                    of_category: [value.category],
+                    with_name: value.name,
+                });
+                this.props.SaveProducts(response.data.items);
+                historyPush('/all-products',{})
+            }else{
+                const response = await crudBuilder(`/items`).getList({
+                    with_name: value.name,
+                });
+                this.props.SaveProducts(response.data.items);
+                historyPush('/all-products',{})
+            }
+        }catch(err){
+            console.log(err)
+        }
+    };
+
     render() {
+
         return (
             <div className="search-block">
                 <div className="search-block-top">
@@ -24,22 +55,7 @@ export default class SearchBlock extends React.PureComponent{
                         <MaterialIcon  icon="brightness_1" size="small"/>
                         CONNECT
                     </div>
-                    <Form inline={true} className="search-form">
-                        <div className="search-form-wrapper">
-                            <DropdownButton
-                                title="Category"
-                                className="dropdown"
-                                id="bg-nested-dropdown"
-                            >
-                                <MenuItem eventKey="1">Dropdown link</MenuItem>
-                                <MenuItem eventKey="2">Dropdown link</MenuItem>
-                            </DropdownButton>
-                            <FormControl type='text' className="input"/>
-                            <Button type="submit" className="submit-btn">
-                                <div>START SEARCHING</div>
-                            </Button>
-                        </div>
-                    </Form>
+                    <MainPageSearchForm onSubmit={this.handleSubmit}/>
                 </div>
                 <div className="search-block-footer">
                     <BottomButtons />
@@ -48,3 +64,9 @@ export default class SearchBlock extends React.PureComponent{
         );
     }
 }
+
+const mapDispatchToProps = (dispatch) =>{
+    return bindActionCreators({ SaveProducts, dispatch }, dispatch);
+};
+
+export default connect(null, mapDispatchToProps)(SearchBlock)

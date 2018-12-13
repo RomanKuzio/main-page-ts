@@ -39,6 +39,7 @@ class SingInForm extends React.Component<IProps>{
                        name="email"
                        type="text"
                        label="Email Address"
+                       hintText=''
                        className='sing-in-form-element'
                        component={this.renderTextField}
                        validate={[required, email]}
@@ -47,6 +48,7 @@ class SingInForm extends React.Component<IProps>{
                        name="password"
                        type="password"
                        label="Password"
+                       hintText=''
                        className='sing-in-form-element'
                        component={this.renderTextField}
                        validate={required}
@@ -55,6 +57,7 @@ class SingInForm extends React.Component<IProps>{
                        name="confirmPassword"
                        type="password"
                        label="Confirm Password"
+                       hintText=''
                        className='sing-in-form-element'
                        component={this.renderTextField}
                        validate={required}

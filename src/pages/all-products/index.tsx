@@ -12,8 +12,10 @@ export default class AllProducts extends React.Component{
         return(
             <div className="all-products-page">
                 <Header/>
-                <Filter/>
-                <ProductsList/>
+                <div className="all-products-center-wrapper">
+                    <Filter/>
+                    <ProductsList/>
+                </div>
                 <Footer/>
             </div>
         )

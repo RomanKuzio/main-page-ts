@@ -1,22 +1,21 @@
 import * as React from 'react';
 import Button from '@material-ui/core/Button';
-import {crudBuilder} from "../../../helpers/httpRequest";
+import { ToastContainer, toast } from 'react-toastify';
 
 import SingInForm from '../../../container/singInForm/singInForm'
-
-import './singInStyles.scss';
-
+import {crudBuilder} from "../../../helpers/httpRequest";
 import Google from '../../../static/images/googlePlusSinIn.png'
 import Facebook from '../../../static/images/facebook .png'
+
+import './singInStyles.scss';
 
 
 
 export default class SingIn extends React.Component {
-
     handleSubmit=async(value)=>{
         try {
             if(value.password !=value.confirmPassword){
-                alert("passwords do not match");
+                toast.error("Passwords do not match")
             }else {
                 const response: object = await (crudBuilder('/sign_up').post({
                     user: {
@@ -24,17 +23,26 @@ export default class SingIn extends React.Component {
                         password: value.password,
                     }
                 }));
-                console.log(response);
+                toast.info("user is successfully registered")
             }
         } catch (err) {
             console.error(err);
+            toast.info("A user with such an email is already registered",
+            )
         }
     };
 
     public render(){
         return(
             <div className="sing-in-wrapper">
-
+                <ToastContainer
+                    position="top-right"
+                    autoClose={5000}
+                    hideProgressBar={false}
+                    newestOnTop={false}
+                    closeOnClick
+                    rtl={false}
+                />
                 <div className="sing-in-top">
                     <div className="sing-in-title">
                         Are you new user?
@@ -44,8 +52,6 @@ export default class SingIn extends React.Component {
                     />
                 </div>
                 <div className="sing-in-bottom">
-
-
                     <div className="sing-in-bottom-btns-wrapper">
                         <Button
                             variant="fab"
@@ -71,7 +77,7 @@ export default class SingIn extends React.Component {
                         </Button>
                     </div>
                     <h3 className="sing-in-bottom-text">
-                        Sing Up it's free
+                        <a style={{color:"white"}}>Sing Up it's free</a>
                     </h3>
                 </div>
             </div>

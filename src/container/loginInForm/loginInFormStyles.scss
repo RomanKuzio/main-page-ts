@@ -52,10 +52,12 @@
 
       height: 0 !important;
     }
-  }
 
-  .submit-login-in-form-btn-icon {
-    font-size: 60px;
+    .submit-login-in-form-btn-icon {
+      width: 50%;
+      margin-left: 2%;
+      margin-top: 8%;
+    }
   }
 
   @media (min-device-width: 925px) and (max-device-width: 1300px) {
@@ -128,7 +130,14 @@
       .MuiButton-label-2 {
         font-size: 25px !important;
       }
+
+      .submit-login-in-form-btn-icon {
+        width: 85%;
+        margin-left: 2%;
+        margin-top: 15%;
+      }
     }
+
   }
 
   @media (min-device-width: 320px) and (max-device-width: 400px) {
@@ -151,6 +160,11 @@
       height: 20px !important;
       .MuiButton-label-2 {
         font-size: 20px !important;
+      }
+      .submit-login-in-form-btn-icon {
+        width: 100%;
+        margin-left: 2%;
+        margin-top: 20%;
       }
     }
   }

@@ -24,6 +24,18 @@
         color: #484848;
     }
 
+    .form-control{
+        height: 40px;
+        border: none;
+        margin-bottom: 0;
+        padding-right: 10px;
+        color: #a4a4a4;
+    }
+
+    .form-group{
+        margin-bottom: 0;
+    }
+
     .mini-title {
         display: flex;
         justify-content: center;
@@ -44,30 +56,42 @@
     }
 
     .dropdown {
-        height: 50px !important;
+        height: 100% !important;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         border-top-right-radius: 0 !important;
         border-bottom-right-radius: 0 !important;
         border-right: solid 0.7px #cdcdcd;
         border: none;
+        width: 33%;
         color:#838383;
     }
 
+    .dropdown-option{
+        border-right: solid 0.7px #cdcdcd;
+        border: none;
+        border-radius: 5px 0 0 5px!important;
+        width: 100%;
+        color: black;
+    }
+
     .input {
-        border-radius: 0 !important;
         height: 50px !important;
         width: 100% !important;
-        border: none !important;
+        border-radius: 0;
     }
 
     .submit-btn {
         width: 40%;
+        height: 50px;
         background-color: #4dadbb;
         border-top-left-radius: 0 !important;
         color: white;
         border-bottom-left-radius: 0 !important;
         font-weight: 600;
+        >a{
+            color: white;
+        }
     }
 
     .btns-wrapper {
@@ -136,7 +160,7 @@
             display: flex;
             justify-content: center;
             font-size: 9px;
-
+            height: 30px;
         }
 
     }
@@ -151,7 +175,7 @@
             display: flex;
             justify-content: center;
             font-size: 14px;
-
+            height: 50px;
         }
 
     }
@@ -180,7 +204,7 @@
             display: flex;
             justify-content: center;
             font-size: 12px;
-
+            height: 50px;
         }
 
     }
@@ -204,7 +228,7 @@
             display: flex;
             justify-content: center;
             font-size: 12px;
-
+            height: 50px;
         }
 
     }

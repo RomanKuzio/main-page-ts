@@ -1,11 +1,14 @@
 import * as React from 'react';
 import { Provider } from 'react-redux';
-import { createStore, combineReducers } from 'redux';
+import thunk from 'redux-thunk';
+import { createStore, combineReducers,applyMiddleware } from 'redux';
 import { reducer as formReducer } from 'redux-form';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-
+import { composeWithDevTools } from 'redux-devtools-extension';
 import {runtime} from './reducer/runtime';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {  Router, Route, Switch } from "react-router-dom";
+
+import { history } from "./helpers/historyPush";
 
 import MainPage from './pages/main-page'
 import Registration from "./pages/registration/index";
@@ -16,17 +19,17 @@ const rootReduser = combineReducers({
     form: formReducer,
 });
 
-const store = createStore(
+export const store = createStore(
     rootReduser,
+    // composeWithDevTools(applyMiddleware(thunk)),
 );
 
-
-class App extends React.Component {
+class App extends React.Component{
   public render() {
     return (
         <Provider store={store}>
           <MuiThemeProvider>
-              <Router >
+              <Router history={history}>
                   <Switch>
                       <Route exact={true} path='/' component={MainPage}/>
                       <Route path='/registration' component={Registration}/>

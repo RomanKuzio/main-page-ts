@@ -2,46 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b98196-fa9d-4ba2-9272-c517267f71b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/images/TelegramIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/images/androidIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/images/iconStar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/images/iosIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/images/searchIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/images/slackIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/images/whatsappIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/images/windowsIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/container/filterForm/filterForm.tsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/container/filterForm/filterFormStyles.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/httpRequest.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/all-products/allProductsStyles.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/all-products/filter/filterStyles.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/all-products/filter/index.tsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/all-products/index.tsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/all-products/products/index.tsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/all-products/products/productsArray.tsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/all-products/products/productsListItem.tsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/all-products/products/productsStyles.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/images/Ellipse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/images/StackPro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/images/facebookLoginIn .png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/static/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/actions.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/container/mainPageSearchForm/mainPageSearchForm.tsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/historyPush.tsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.tsx" afterPath="$PROJECT_DIR$/src/App.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/header/headerStyles.scss" afterPath="$PROJECT_DIR$/src/component/header/headerStyles.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/header/index.tsx" afterPath="$PROJECT_DIR$/src/component/header/index.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/filterForm/filterForm.tsx" afterPath="$PROJECT_DIR$/src/container/filterForm/filterForm.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/filterForm/filterFormStyles.scss" afterPath="$PROJECT_DIR$/src/container/filterForm/filterFormStyles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/loginInForm/loginInForm.tsx" afterPath="$PROJECT_DIR$/src/container/loginInForm/loginInForm.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/loginInForm/loginInFormStyles.scss" afterPath="$PROJECT_DIR$/src/container/loginInForm/loginInFormStyles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/singInForm/singInForm.tsx" afterPath="$PROJECT_DIR$/src/container/singInForm/singInForm.tsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/singInForm/singInFormStyles.scss" afterPath="$PROJECT_DIR$/src/container/singInForm/singInFormStyles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/helpers/httpRequest.ts" afterPath="$PROJECT_DIR$/src/helpers/httpRequest.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.scss" afterPath="$PROJECT_DIR$/src/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/main-page/products/listOfProducts.tsx" afterPath="$PROJECT_DIR$/src/pages/main-page/products/listOfProducts.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/all-products/allProductsStyles.scss" afterPath="$PROJECT_DIR$/src/pages/all-products/allProductsStyles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/all-products/filter/filterStyles.scss" afterPath="$PROJECT_DIR$/src/pages/all-products/filter/filterStyles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/all-products/filter/index.tsx" afterPath="$PROJECT_DIR$/src/pages/all-products/filter/index.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/all-products/index.tsx" afterPath="$PROJECT_DIR$/src/pages/all-products/index.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/all-products/products/index.tsx" afterPath="$PROJECT_DIR$/src/pages/all-products/products/index.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/all-products/products/productsListItem.tsx" afterPath="$PROJECT_DIR$/src/pages/all-products/products/productsListItem.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/all-products/products/productsStyles.scss" afterPath="$PROJECT_DIR$/src/pages/all-products/products/productsStyles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/main-page/searchBlock/index.tsx" afterPath="$PROJECT_DIR$/src/pages/main-page/searchBlock/index.tsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/main-page/searchBlock/serchBlockStyles.scss" afterPath="$PROJECT_DIR$/src/pages/main-page/searchBlock/serchBlockStyles.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/main-page/testimonial/carusel.tsx" afterPath="$PROJECT_DIR$/src/pages/main-page/testimonial/carusel.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/main-page/testimonial/human.tsx" afterPath="$PROJECT_DIR$/src/pages/main-page/testimonial/human.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/main-page/testimonial/testimonialsStyles.scss" afterPath="$PROJECT_DIR$/src/pages/main-page/testimonial/testimonialsStyles.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/registration/loginIn/index.tsx" afterPath="$PROJECT_DIR$/src/pages/registration/loginIn/index.tsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/registration/loginIn/loginInStyles.scss" afterPath="$PROJECT_DIR$/src/pages/registration/loginIn/loginInStyles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/registration/registrationStyles.scss" afterPath="$PROJECT_DIR$/src/pages/registration/registrationStyles.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/registration/singIn/index.tsx" afterPath="$PROJECT_DIR$/src/pages/registration/singIn/index.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/registration/singIn/singInStyles.scss" afterPath="$PROJECT_DIR$/src/pages/registration/singIn/singInStyles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducer/runtime.tsx" afterPath="$PROJECT_DIR$/src/reducer/runtime.tsx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,7 +44,62 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/registration/singIn/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="44" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="singInStyles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/registration/singIn/singInStyles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginInStyles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/registration/loginIn/loginInStyles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/all-products/filter/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="62" column="46" lean-forward="false" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/registration/loginIn/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,18 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>respon</find>
-      <find>@import</find>
-      <find>btns</find>
-      <find>@impor</find>
-      <find>required</find>
-      <find>z</find>
-      <find>validate</find>
-      <find>Image</find>
-      <find>sing</find>
-      <find>rale</find>
-      <find>Rale</find>
-      <find>font-f</find>
       <find>login</find>
       <find>header-i</find>
       <find>ma</find>
@@ -96,6 +132,18 @@
       <find>filter-block-title-</find>
       <find>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;path/to/notifications.css&quot;&gt;</find>
       <find>left</find>
+      <find>interfa</find>
+      <find>map</find>
+      <find>router</find>
+      <find>star</find>
+      <find>Link</find>
+      <find>console.log</find>
+      <find>mapState</find>
+      <find>form-con</find>
+      <find>search-blo</find>
+      <find>super</find>
+      <find>bundle.js</find>
+      <find>resolv</find>
     </findStrings>
     <replaceStrings>
       <replace>login</replace>
@@ -113,57 +161,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/main-page/searchBlock/asd.tsx" />
-        <option value="$PROJECT_DIR$/src/formHelpers/historyPush.ts" />
-        <option value="$PROJECT_DIR$/src/pages/main-page/searchBlock/index.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/main-page/products/productPanel.tsx" />
-        <option value="$PROJECT_DIR$/src/container/singInForm/singInForm.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/registration/index.tsx" />
-        <option value="$PROJECT_DIR$/src/reducer/runtime.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/registration/singIn/singInStyles.scss" />
-        <option value="$PROJECT_DIR$/src/pages/main-page/products/index.tsx" />
         <option value="$PROJECT_DIR$/src/pages/main-page/searchBlock/bottomButtons.tsx" />
-        <option value="$PROJECT_DIR$/src/container/loginInForm/loginInForm.tsx" />
         <option value="$PROJECT_DIR$/src/Helpers/icons.tsx" />
-        <option value="$PROJECT_DIR$/src/container/loginInForm/loginInFormStyles.scss" />
         <option value="$PROJECT_DIR$/src/component/footer/index.tsx" />
         <option value="$PROJECT_DIR$/src/component/footer/footerStyles.scss" />
         <option value="$PROJECT_DIR$/src/index.tsx" />
         <option value="$PROJECT_DIR$/src/pages/main-page/products/popularProductsStyles.scss" />
-        <option value="$PROJECT_DIR$/src/App.tsx" />
-        <option value="$PROJECT_DIR$/src/component/header/index.tsx" />
         <option value="$PROJECT_DIR$/src/pages/all-products/filter/filterForm.js" />
         <option value="$PROJECT_DIR$/src/container/filterForm.js" />
         <option value="$PROJECT_DIR$/src/container/FilterForm/filterForm.js" />
         <option value="$PROJECT_DIR$/src/container/FilterForm/filterFormStyles.scss" />
         <option value="$PROJECT_DIR$/src/container/FilterForm/filterForm.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/all-products/index.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/all-products/products/index.tsx" />
         <option value="$PROJECT_DIR$/src/pages/all-products/products/productsArray.tsx" />
         <option value="$PROJECT_DIR$/src/acions/loginAction.tsx" />
-        <option value="$PROJECT_DIR$/src/container/singInForm/singInFormStyles.scss" />
-        <option value="$PROJECT_DIR$/src/helpers/httpRequest.ts" />
-        <option value="$PROJECT_DIR$/src/helpers/notification.tsx" />
         <option value="$PROJECT_DIR$/src/component/header/headerStyles.scss" />
         <option value="$PROJECT_DIR$/src/pages/main-page/testimonial/human.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/all-products/filter/index.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/all-products/products/productsListItem.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/main-page/testimonial/carusel.tsx" />
         <option value="$PROJECT_DIR$/src/pages/registration/registrationStyles.scss" />
-        <option value="$PROJECT_DIR$/src/pages/registration/loginIn/loginInStyles.scss" />
-        <option value="$PROJECT_DIR$/src/index.scss" />
-        <option value="$PROJECT_DIR$/src/pages/all-products/allProductsStyles.scss" />
-        <option value="$PROJECT_DIR$/src/pages/main-page/searchBlock/serchBlockStyles.scss" />
         <option value="$PROJECT_DIR$/src/pages/main-page/testimonial/testimonialsStyles.scss" />
-        <option value="$PROJECT_DIR$/src/container/filterForm/filterForm.tsx" />
-        <option value="$PROJECT_DIR$/src/container/filterForm/filterFormStyles.scss" />
         <option value="$PROJECT_DIR$/src/pages/main-page/products/listOfProducts.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/all-products/products/productsStyles.scss" />
         <option value="$PROJECT_DIR$/src/helpers/notifocation.tsx" />
+        <option value="$PROJECT_DIR$/src/helpers/httpRequest.ts" />
+        <option value="$PROJECT_DIR$/src/pages/all-products/filter/filterStyles.scss" />
+        <option value="$PROJECT_DIR$/src/container/singInForm/singInForm.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/all-products/products/productsStyles.scss" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/all-products/products/productsListItem.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/all-products/products/index.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/all-products/index.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/all-products/allProductsStyles.scss" />
+        <option value="$PROJECT_DIR$/src/actions/actions.tsx" />
+        <option value="$PROJECT_DIR$/src/reducer/runtime.tsx" />
+        <option value="$PROJECT_DIR$/src/container/loginInForm/loginInForm.tsx" />
+        <option value="$PROJECT_DIR$/src/container/loginInForm/loginInFormStyles.scss" />
+        <option value="$PROJECT_DIR$/src/pages/main-page/testimonial/carusel.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/main-page/searchBlock/serchBlockStyles.scss" />
+        <option value="$PROJECT_DIR$/src/container/singInForm/singInFormStyles.scss" />
+        <option value="$PROJECT_DIR$/src/helpers/notification.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/registration/index.tsx" />
+        <option value="$PROJECT_DIR$/src/helpers/historyPush.tsx" />
+        <option value="$PROJECT_DIR$/src/container/mainPageSearchForm/mainPageSearchForm.tsx" />
+        <option value="$PROJECT_DIR$/src/App.tsx" />
+        <option value="$PROJECT_DIR$/src/component/header/index.tsx" />
+        <option value="$PROJECT_DIR$/src/container/filterForm/filterFormStyles.scss" />
+        <option value="$PROJECT_DIR$/src/pages/main-page/searchBlock/index.tsx" />
+        <option value="$PROJECT_DIR$/src/container/filterForm/filterForm.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/registration/loginIn/loginInStyles.scss" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/config/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/src/pages/registration/singIn/singInStyles.scss" />
         <option value="$PROJECT_DIR$/src/pages/registration/singIn/index.tsx" />
         <option value="$PROJECT_DIR$/src/pages/registration/loginIn/index.tsx" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/pages/all-products/filter/filterStyles.scss" />
+        <option value="$PROJECT_DIR$/src/pages/all-products/filter/index.tsx" />
       </list>
     </option>
   </component>
@@ -211,6 +259,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,24 +285,21 @@
               <item name="ts-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="all-products" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ts-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="ts-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="all-products" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
+              <item name="loginIn" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,23 +312,23 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Project/dovira-fe-web-pack" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/grisha" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\LinkUp\ts-project\src\static\images" />
-      <recent name="D:\LinkUp\ts-project\src" />
-      <recent name="D:\LinkUp\ts-project\src\pages\main-page\testimonial" />
-      <recent name="D:\LinkUp\ts-project\src\pages\main-page\searchBlock" />
-      <recent name="D:\LinkUp\ts-project\src\pages\main-page\products" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\LinkUp\ts-project\src\container\FilterForm" />
       <recent name="D:\LinkUp\ts-project\src\container" />
       <recent name="D:\LinkUp\ts-project\src" />
       <recent name="D:\LinkUp\ts-project\src\container\singInForm" />
       <recent name="D:\LinkUp\ts-project\src\component" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LinkUp\ts-project\src\static\images" />
+      <recent name="D:\LinkUp\ts-project\src" />
+      <recent name="D:\LinkUp\ts-project\src\pages\main-page\testimonial" />
+      <recent name="D:\LinkUp\ts-project\src\pages\main-page\searchBlock" />
+      <recent name="D:\LinkUp\ts-project\src\pages\main-page\products" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -405,15 +453,29 @@
       <workItem from="1542712562447" duration="81000" />
       <workItem from="1542729385718" duration="9267000" />
       <workItem from="1542796576052" duration="18251000" />
-      <workItem from="1542879896223" duration="21092000" />
+      <workItem from="1542879896223" duration="21324000" />
+      <workItem from="1543183885593" duration="1055000" />
+      <workItem from="1543230236833" duration="17898000" />
+      <workItem from="1543258662495" duration="5857000" />
+      <workItem from="1543305988819" duration="4832000" />
+      <workItem from="1543332270090" duration="9606000" />
+      <workItem from="1543396032419" duration="22347000" />
+      <workItem from="1543443139812" duration="3980000" />
+      <workItem from="1543481625836" duration="16735000" />
+      <workItem from="1543826078738" duration="16541000" />
+      <workItem from="1543846985610" duration="337000" />
+      <workItem from="1543847491380" duration="7532000" />
+      <workItem from="1544004662863" duration="12178000" />
+      <workItem from="1544017932937" duration="5484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263106000" />
+    <option name="totallyTimeSpent" value="387720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -422,26 +484,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27801725" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27801725" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23630504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15896885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -464,10 +526,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27801725" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23630504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1546724" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -486,95 +548,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/main-page/searchBlock/bottomButtons.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/icons.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/component/footer/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/footer/footerStyles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/loginInForm/loginInFormStyles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/registration/singIn/singInStyles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1553">
-          <caret line="48" column="3" lean-forward="false" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/main-page/searchBlock/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="96" lean-forward="false" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/validator.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/all-products/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/all-products/products/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="2380" column="12" lean-forward="false" selection-start-line="2380" selection-start-column="12" selection-end-line="2380" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/main-page/products/productPanel.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/acions/loginAction.tsx" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -582,43 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/singInForm/singInFormStyles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/notification.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/pages/main-page/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/header/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="124" column="36" lean-forward="true" selection-start-line="124" selection-start-column="36" selection-end-line="124" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/main-page/products/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/main-page/products/popularProductsStyles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1925">
           <caret line="77" column="28" lean-forward="false" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,51 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/httpRequest.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/all-products/filter/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/all-products/products/productsArray.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/all-products/products/productsListItem.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-666">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,41 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/registration/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/registration/loginIn/loginInStyles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/main-page/testimonial/carusel.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="115" column="33" lean-forward="false" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2225">
           <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,9 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,7 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,15 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/main-page/searchBlock/serchBlockStyles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,72 +615,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="153" column="36" lean-forward="false" selection-start-line="153" selection-start-column="36" selection-end-line="153" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/singInForm/singInForm.tsx">
+    <entry file="file://$PROJECT_DIR$/src/helpers/notifocation.tsx" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="54" column="44" lean-forward="false" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="213">
+          <caret line="301" column="8" lean-forward="false" selection-start-line="301" selection-start-column="8" selection-end-line="301" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/notifocation.tsx">
+    <entry file="file://$PROJECT_DIR$/src/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/registration/singIn/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/filterForm/filterForm.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3375">
-          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+        <state relative-caret-position="325">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/filterForm/filterFormStyles.scss">
+    <entry file="file://$PROJECT_DIR$/src/pages/all-products/products/productsArray.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="18" column="159" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="159" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/main-page/products/listOfProducts.tsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/all-products/filter/filterStyles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="388">
+          <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/all-products/products/productsStyles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="52" column="23" lean-forward="false" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        <state relative-caret-position="525">
+          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/all-products/products/productsListItem.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/main-page/products/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/main-page/products/listOfProducts.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/all-products/allProductsStyles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducer/runtime.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/actions.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -843,43 +710,231 @@
     <entry file="file://$PROJECT_DIR$/src/container/loginInForm/loginInForm.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1300">
-          <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+          <caret line="62" column="39" lean-forward="false" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/loginInForm/loginInFormStyles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="152" column="13" lean-forward="false" selection-start-line="152" selection-start-column="13" selection-end-line="152" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/main-page/testimonial/carusel.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="95" column="19" lean-forward="true" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/main-page/searchBlock/serchBlockStyles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/notification.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/pages/registration/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/singInForm/singInFormStyles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/history/createBrowserHistory.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/singInForm/singInForm.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/historyPush.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="33" column="65" lean-forward="false" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/filterForm/filterFormStyles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/mainPageSearchForm/mainPageSearchForm.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2925">
+          <caret line="117" column="42" lean-forward="false" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/main-page/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/main-page/searchBlock/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/filterForm/filterForm.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="212" column="14" lean-forward="false" selection-start-line="212" selection-start-column="14" selection-end-line="212" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!block;n#IState#0" expanded="false" />
+            <element signature="e#800#911#0" expanded="false" />
+            <element signature="e#1063#1367#0" expanded="false" />
+            <element signature="e#1401#4696#0" expanded="false" />
+            <element signature="e#4729#5676#0" expanded="false" />
+            <element signature="e#6969#6990#0" expanded="false" />
+            <element signature="e#7033#7111#0" expanded="false" />
+            <element signature="e#7219#7244#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/all-products/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/all-products/products/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/httpRequest.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/header/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/registration/singIn/singInStyles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/registration/loginIn/loginInStyles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/registration/singIn/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="44" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/registration/loginIn/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        <state relative-caret-position="425">
+          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
-            <marker date="1542731921906" expanded="true" signature="1000:2508" ph="..." />
-            <marker date="1542731921906" expanded="true" signature="1047:1300" ph="..." />
-            <marker date="1542731921906" expanded="true" signature="1100:1168" ph="..." />
-            <marker date="1542731921906" expanded="true" signature="1202:1277" ph="..." />
-            <marker date="1542731921906" expanded="true" signature="1350:2489" ph="..." />
-            <marker date="1542731921906" expanded="true" signature="1417:2341" ph="..." />
-            <marker date="1542731921906" expanded="true" signature="1450:1888" ph="..." />
-            <marker date="1542731921906" expanded="true" signature="1699:1854" ph="..." />
-            <marker date="1542731921906" expanded="true" signature="1921:2314" ph="..." />
-            <marker date="1542731921906" expanded="true" signature="2180:2280" ph="..." />
-            <marker date="1542731921906" expanded="true" signature="2399:2466" ph="..." />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/all-products/allProductsStyles.scss">
+    <entry file="file://$PROJECT_DIR$/src/pages/all-products/filter/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/all-products/filter/filterStyles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="73" column="19" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+        <state relative-caret-position="450">
+          <caret line="62" column="46" lean-forward="false" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
           <folding />
         </state>
       </provider>

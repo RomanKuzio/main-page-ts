@@ -1,3 +1,4 @@
+@import "../../../../node_modules/react-toastify/dist/ReactToastify.min.css";
 $white:white;
 .sing-in-wrapper {
   width: 50%;
@@ -51,6 +52,7 @@ $white:white;
   }
 
   .sing-in-bottom-text {
+    cursor: pointer;
     color: $white;
     margin-top: 10px;
     font-size: 20px;

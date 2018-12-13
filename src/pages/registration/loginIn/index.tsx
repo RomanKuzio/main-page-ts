@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Button from '@material-ui/core/Button';
+import { ToastContainer, toast } from 'react-toastify';
 
 import LoginInForm from '../../../container/loginInForm/loginInForm'
 import Google from '../../../static/images/googlePlus.png'
@@ -19,15 +20,20 @@ export default class LoginIn extends React.Component {
                     }
                 }
             );
-            console.log(response);
             localStorage.setItem('token', response.data.jwt);
         } catch (err) {
+            if(err.response.status == 500) {
+                toast.error("Wrong e-mail or password");
+            }else{
+                toast.error("User with this email is not registered");
+            }
             console.error(err.response);
         }
     };
     public render(){
         return(
             <div className="login-in-wrapper">
+
                 <div className="login-in-top">
                     <div className="login-in-title">
                         Have an Account?
@@ -61,7 +67,7 @@ export default class LoginIn extends React.Component {
                         </Button>
                     </div>
                     <h3 className="login-in-bottom-text">
-                        Forgot Password?
+                        <a style={{color:"#4dadbb"}}>Forgot Password?</a>
                     </h3>
                 </div>
             </div>
